@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Git Xcode Test")
-            .padding()
+        VStack {
+            Text("Git Xcode Test")
+                .padding()
+            
+            Text("branch1")
+                .bold()
+                .font(.system(size: 100))
+        }
     }
 }
 
